@@ -37,6 +37,7 @@
         for(const element of allboxes){
           element.classList.add("circle");
         }
+        console.log(box.classList.contains("circle"));
       })
 
 
@@ -48,6 +49,7 @@
         for(const element of allboxes){
           element.classList.remove("circle");
         }
+        console.log(box.classList.contains("circle"));
       })
 
       
@@ -58,7 +60,11 @@
         for(const element of allboxes){
           element.classList.toggle("circle");
         }
+        console.log(box.classList.contains("circle"));
       })
+
+      
+      
 
 
   </script>
