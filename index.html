@@ -54,6 +54,11 @@
       //---------------------Toggle Class circle -----------------------
       var toggleBtn = document.querySelector(".btn-toggle")
       //Write code here
+      toggleBtn.addEventListener("click",function(){
+        for(const element of allboxes){
+          element.classList.toggle("circle");
+        }
+      })
 
 
   </script>
