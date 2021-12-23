@@ -44,6 +44,11 @@
       //---------------------Remove Class circle from allboxes---------
       var resetBtn = document.querySelector(".btn-rest")
       //Write code here
+      resetBtn.addEventListener("click",function(){
+        for(const element of allboxes){
+          element.classList.remove("circle");
+        }
+      })
 
       
       //---------------------Toggle Class circle -----------------------
